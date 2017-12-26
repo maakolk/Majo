@@ -20,7 +20,7 @@ def makeFig():  # Create a function that makes our desired plot
 
 while True:  # While loop that loops forever
     while (arduinoData.inWaiting() == 0):  # Wait here until there is data
-        pass  # do nothing
+        pass  # do nothing test
     arduinoString = arduinoData.readline()  # read the line of text from the serial port
     temp = float(arduinoString)  # Convert first element to floating number and put in temp
     velocity.append(temp)  # Build our tempF array by appending temp readings
