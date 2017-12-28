@@ -25,7 +25,8 @@ class ArduinoConnection:
 
     def getSimulateData(self):
         self.count += 1
-        return ((math.sin(2 * math.pi * self.count / self.SINUS_LENGTH) + 1) + random.random() * 0.5) * 20
+        print(self.count)
+        return ((math.sin(2 * math.pi * self.count / self.SINUS_LENGTH) + 1) + ( random.random() - 0.5 ) * 0.5 + 0.25) * 20
 
 
 velocityArray = []
