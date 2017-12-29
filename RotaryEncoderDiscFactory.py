@@ -2,6 +2,8 @@ import matplotlib.pyplot as plt
 from matplotlib.collections import PatchCollection
 from matplotlib.patches import Wedge
 
+SEPARATOR_WIDTH = 0.0001
+
 
 class ThetaProvider:
     def __init__(self, n):
@@ -43,23 +45,27 @@ class WedgeProvider:
         self.width = (outer - self.inner) / n
         self.count = 0
 
-    def nextWedge(self):
+    def nextWedge(self, ax):
         if self.rp == None:
             self.rp = RingProvider(self.n)
 
         i, theta1, theta2, next = self.rp.nextRing()
 
-        if not self.count % 2:
-            col = '0'
-        else:
-            col = '1'
+        colour = self.count % 2
+        invertedColour = int(not colour)
+
         self.count += 1
 
         r = self.inner + self.width * i
 
-        print(r, theta1, theta2, self.width, col)
-        return Wedge((0,0), r, theta1, theta2, width=self.width, color=col), next
+        print(r, theta1, theta2, self.width, colour)
+        ax.add_patch(Wedge((0, 0), r, theta1, theta2, width=self.width, color=str(colour)))
 
+        ax.add_patch(Wedge((0, 0), r, theta1, theta2, width=SEPARATOR_WIDTH, color=str(invertedColour)))
+        if i == 1:
+            ax.add_patch(Wedge((0, 0), self.inner - SEPARATOR_WIDTH, theta1, theta2, width=SEPARATOR_WIDTH, color=str(invertedColour)))
+
+        return next
 
 
 # Test1
@@ -82,14 +88,12 @@ class WedgeProvider:
 
 fig = plt.figure(figsize=(12, 12), dpi=80)
 ax = fig.add_subplot(111)
-ax.set_xlim(-1,1)
-ax.set_ylim(-1,1)
+ax.set_xlim(-1, 1)
+ax.set_ylim(-1, 1)
 
 next = True
 wp = WedgeProvider(5, 0.2, 1.0)
 while (next):
-     wedge, next = wp.nextWedge()
-     ax.add_patch(wedge)
+    next = wp.nextWedge(ax)
 
 plt.show()
-
