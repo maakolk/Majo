@@ -63,6 +63,7 @@ wp = WedgeProvider(5, 0.2, 1.0)
 while (next):
     next = wp.nextWedge(ax)
 
+fig.savefig("Rotary.jpg", dpi=500)
 plt.show()
 
 # Documentation
