@@ -97,3 +97,8 @@ while (next):
     next = wp.nextWedge(ax)
 
 plt.show()
+
+# Documentation
+# =============
+# https://en.wikipedia.org/wiki/Rotary_encoder#Ways_of_encoding_shaft_position
+# https://matplotlib.org/gallery/api/patch_collection.html#sphx-glr-gallery-api-patch-collection-py
