@@ -47,7 +47,7 @@ class WedgeProvider:
         ax.add_patch(Wedge((0, 0), end, theta1, theta2, width=end-begin, color=str(colour)))
 
         ax.add_patch(Wedge((0, 0), end, theta1, theta2, width=SEPARATOR_WIDTH, color=str(invertedColour)))
-        if self.count == 1 | self.count == 2:
+        if self.count == 1 or self.count == 2:
             ax.add_patch(Wedge((0, 0), begin - SEPARATOR_WIDTH, theta1, theta2, width=SEPARATOR_WIDTH,
                                color=str(invertedColour)))
 
