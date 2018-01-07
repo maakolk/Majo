@@ -34,7 +34,7 @@ class ArduinoConnection:
 connection = ArduinoConnection()
 
 def update(frame):
-    angle = connection.getSimulateData()  # change to:  .getRealData()
+    angle = connection.getSimulateData()  # < change to:  .getRealData()
     alphaRad = 2 * numpy.pi * angle / 40.
 
     r = [0.0001, 1.9]
@@ -49,5 +49,5 @@ def update(frame):
 
 fig = plt.figure(figsize=(10, 10), dpi=80)
 ax = fig.add_subplot(111, projection='polar')
-animation = FuncAnimation(fig, update, interval=500, frames=10) # change to: interval=1
+animation = FuncAnimation(fig, update, interval=500, frames=10) # < change to: interval=1
 plt.show()
