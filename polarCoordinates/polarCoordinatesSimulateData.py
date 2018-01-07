@@ -37,7 +37,7 @@ def update(frame):
     angle = connection.getSimulateData()  # change to:  .getRealData()
     alphaRad = 2 * numpy.pi * angle / 40.
 
-    r = [0.0001, 2.0]
+    r = [0.0001, 1.9]
     theta = [alphaRad, alphaRad]
 
     ax = plt.subplot(111, )
@@ -45,7 +45,7 @@ def update(frame):
     ax.plot(theta, r, color="red")
     ax.set_rmax(2)
     ax.set_rticks([])  # less radial ticks
-    ax.set_xticklabels(['E', '', 'N', '', 'W', '', 'S', ''])
+    ax.set_xticklabels(['E', 'NE', 'N', 'NW', 'W', 'SW', 'S', 'SE'])
 
 fig = plt.figure(figsize=(10, 10), dpi=80)
 ax = fig.add_subplot(111, projection='polar')

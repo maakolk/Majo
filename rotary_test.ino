@@ -29,41 +29,10 @@
        counter ++;
      } else {
        counter --;
-     }if (counter ==-0) Serial.println ("N");
-      if (counter ==-5) Serial.println ("N/O");
-      if (counter ==10) Serial.println ("O");
-      if (counter ==-15) Serial.println ("S/O");
-      if (counter ==-20) Serial.println ("S");
-      if (counter ==-25) Serial.println ("S/W");
-      if (counter ==-30) Serial.println ("W");
-      if (counter ==-35) Serial.println ("N/W");
-      if (counter ==-40) Serial.println ("N");
-      if (counter ==-45) Serial.println ("N/O");
-      if (counter ==-50) Serial.println ("O");
-      if (counter ==-55) Serial.println ("S/O");
-      if (counter ==-60) Serial.println ("S");
-      if (counter ==-65) Serial.println ("S/W");
-      if (counter ==-70) Serial.println ("W");
-      if (counter ==-75) Serial.println ("N/W");
-      if (counter ==-80) Serial.println ("N");
-      if (counter ==0) Serial.println ("N");
-      if (counter ==5) Serial.println ("N/O");
-      if (counter ==10) Serial.println ("O");
-      if (counter ==15) Serial.println ("S/O");
-      if (counter ==20) Serial.println ("S");
-      if (counter ==25) Serial.println ("S/W");
-      if (counter ==30) Serial.println ("W");
-      if (counter ==35) Serial.println ("N/W");
-      if (counter ==40) Serial.println ("N");
-      if (counter ==45) Serial.println ("N/O");
-      if (counter ==50) Serial.println ("O");
-      if (counter ==55) Serial.println ("S/O");
-      if (counter ==60) Serial.println ("S");
-      if (counter ==65) Serial.println ("S/W");
-      if (counter ==70) Serial.println ("W");
-      if (counter ==75) Serial.println ("N/W");
-      if (counter ==80) Serial.println ("N");
-    
+     }
+     counter = counter % 40;
+     Serial.println(counter);
+
    } 
    aLastState = aState; // Updates the previous state of the outputA with the current state
  }
