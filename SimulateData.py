@@ -23,7 +23,7 @@ class ArduinoConnection:
             self.arduinoConnection = serial.Serial('com6', 9600)  # Creating our serial object named arduinoData
         while (self.arduinoConnection.inWaiting() == 0):  # Wait here until there is data
             pass  # do nothing
-        return float(self.arduinoConnection().readline())  # read the line of text from the serial port
+        return float(self.arduinoConnection.readline())  # read the line of text from the serial port
 
     def getSimulateData(self):
         self.count += 1
