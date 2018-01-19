@@ -12,3 +12,16 @@ class Slices:
         self.end += delta
         self.remainingSlicesCount -= 1
         return self.begin, self.end, self.remainingSlicesCount > 0
+
+    @staticmethod
+    def arrangeSlicesIntegerArray(slicesCount, begin, end):
+        slicer = Slices(slicesCount, begin, end)
+        results = []
+        results.append(begin)
+        hasNext = True
+
+        while hasNext:
+            begin, end, hasNext = slicer.nextInterval()
+            results.append(end)
+
+        return results

@@ -1,0 +1,13 @@
+http://www.cbcity.de/die-fft-mit-python-einfach-erklaert
+http://nbviewer.jupyter.org/github/balzer82/FFT-Python/blob/master/FFT-Tutorial.ipynb
+
+Jupyter Notebook can be started with:
+Right Mouseclick on:
+C:\Users\Michael Aakolk\WinPython-64bit-3.6.3.0Qt5/Jupyter Lab
+ - > Execute (as Administrator)
+ - > Upload File
+
+ T-Tast = T-Sample-Length / Samples
+
+ F-Sample = 1 / T-Tast
+ F-Max = 1 / 2  * F-Sample = 1 / 2 * Samples / T-Sample-Length
