@@ -9,8 +9,8 @@ from Voltmeter.helper.slicer import Slices
 
 # https://stackoverflow.com/questions/5285912/how-can-i-create-a-frontend-for-matplotlib
 
-X_LIMIT_MS = 200.0
-Y_LIMIT_VOLT = None
+X_LIMIT_MS = 2000.0
+Y_LIMIT_VOLT = 5
 X_TICKS_COUNT = 20
 REFRESH_MS = 100.0
 current_milli_time = lambda: int(round(serial.time.time() * 1000))
