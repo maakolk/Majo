@@ -1,5 +1,4 @@
 int sensorValue;
-unsigned long time;
 
 void setup() {
   // start serial port at 9600 bps:
@@ -8,9 +7,6 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
- delay(20);
  sensorValue = analogRead(A0);
- Serial.print(millis());
- Serial.print(",");
  Serial.println(sensorValue);
 }
