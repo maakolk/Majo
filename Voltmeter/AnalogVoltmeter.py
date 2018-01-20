@@ -5,24 +5,24 @@ import serial  # import Serial Library
 import numpy  # Import numpy
 from drawnow import *
 from matplotlib.animation import FuncAnimation
-from matplotlib.ticker import FormatStrFormatter
 
-from rotaryEncoder.helper.slicer import Slices
 
 # https://stackoverflow.com/questions/5285912/how-can-i-create-a-frontend-for-matplotlib
+REFRESH_MS = 200
+X_LIMIT_MS = 1000
+X_TICKS_COUNT = 20
+
+VOLTAGE_SHOW = True
+Y_LIMIT_VOLT = 5
+Y_CHANNELS = 1024
+Y_TICK_COUNTS = 5
 
 FREQUENCIES_SHOW = True
 FREQUENCIES_LOG = True
 
-REFRESH_MS = 100
-X_LIMIT_MS = 1000
-X_TICKS_COUNT = 20
+RATE_SHOW = True
 
-Y_LIMIT_VOLT = 5
-Y_CHANNELS = None
-Y_TICK_COUNTS = 5
-
-current_milli_time = lambda: int(round(serial.time.time() * 100))
+current_time = lambda: serial.time.time()
 
 class ArduinoConnection:
     SINUS_LENGTH_FRAMES = 650
@@ -52,65 +52,97 @@ class ArduinoConnection:
     def getData(self):
         return self.getRealData()
 
-
 timeValues = []
+rateValues = []
 connection = ArduinoConnection()
-xTickNames = numpy.linspace(0, X_LIMIT_MS, X_TICKS_COUNT + 1, endpoint=True)
-if Y_CHANNELS != None:
-    yTickPositions = numpy.linspace(0, Y_CHANNELS, Y_TICK_COUNTS + 1, endpoint=True)
-yTickNames = numpy.linspace(0, Y_LIMIT_VOLT, Y_TICK_COUNTS + 1, endpoint=True)
+end = []
+
 refresh_ms = min(REFRESH_MS, X_LIMIT_MS)
 
+xTickNames = numpy.linspace(0, X_LIMIT_MS, X_TICKS_COUNT + 1, endpoint=True)
+if Y_LIMIT_VOLT != None:
+    yTickPositions = numpy.linspace(0, Y_CHANNELS, Y_TICK_COUNTS + 1, endpoint=True)
+    yTickNames = numpy.linspace(0, Y_LIMIT_VOLT, Y_TICK_COUNTS + 1, endpoint=True)
 
 def update(frame):
-    start = current_milli_time()
     if len(timeValues) == 0:
-        end = start + X_LIMIT_MS
+        for i in range(25):
+            connection.getData()
+        end.append(current_time() + X_LIMIT_MS / 100)
     else:
-        end = start + refresh_ms
         skip = int(round(len(timeValues) * refresh_ms / X_LIMIT_MS))
         del timeValues[:skip]
-    while current_milli_time() < end:
+        del rateValues[:skip]
+    current_tim = 0
+    while current_tim < end[0]:
         analog = connection.getData()
         timeValues.append(analog)
+        current_tim = current_time()
+        rateValues.append(current_tim)
         # print(analog)
 
+    end[0] += refresh_ms / 100
+
     if len(timeValues) < 2:
-        return
+        raise TimeoutError('No data found')
 
-    makeTimePlot(axt, timeValues)
+    if  VOLTAGE_SHOW:
+         makeTimePlot(axt, timeValues)
 
-    if not FREQUENCIES_SHOW:
-        return
+    if FREQUENCIES_SHOW:
+         frequencyValues = executeFft()
+         makeFrequencyPlot(axf, frequencyValues, len(timeValues))
 
+    if RATE_SHOW:
+         makeDataRatePlot(axr, rateValues)
+
+def executeFft():
     hann = numpy.hanning(len(timeValues))
     frequencyValues = numpy.fft.fft(timeValues * hann)
     N = int(len(timeValues) / 2 + 1)
     frequencyValues = numpy.abs(frequencyValues[:N])
     if FREQUENCIES_LOG:
         frequencyValues = numpy.log(frequencyValues + 0.001)
+    return frequencyValues
 
-    makeFrequencyPlot(axf, frequencyValues, len(timeValues))
+def makeDataRatePlot(ax, yValues):
+    ax.clear()
+    ax.grid(True)  # Turn the grid on
 
+    ax.set_xlabel('Item number ' + str(
+        round(len(yValues) / X_LIMIT_MS * 1000)) + ' Data Samples per Second')  # Set ylabels
+    setXaxesTimeScaling(ax, yValues)
+
+    ax.set_ylabel('Time')  # Set ylabels
+
+    ax.plot(yValues, 'b-', label='RATE')
+    ax.legend(loc='upper left')  # plot the legend
 
 def makeTimePlot(ax, yValues):
     ax.clear()
     ax.grid(True)  # Turn the grid on
-    ax.set_ylabel('Voltage in Volt')  # Set ylabels
+
     ax.set_xlabel('Time in Milli Seconds with ' + str(
         round(len(yValues) / X_LIMIT_MS * 1000)) + ' Data Samples per Second')  # Set ylabels
-    if Y_CHANNELS != None:  # Set to None for AutoScale
+    setXaxesTimeScaling(ax, yValues)
+
+    ax.set_ylabel('Voltage in Volt')  # Set ylabels
+    if Y_LIMIT_VOLT != None:  # Set to None for AutoScale
         ax.set_ylim(0, Y_CHANNELS)
         ax.set_yticks(yTickPositions)
         ax.yaxis.set_ticklabels(yTickNames)
+
+    ax.plot(yValues, 'r-', label='A0')
+    ax.legend(loc='upper left')  # plot the legend
+
+
+def setXaxesTimeScaling(ax, yValues):
     ax.set_xlim(0, len(yValues) - 1)
     if len(yValues) > 0:  # Avoid divisions by zero
         # xTickPositions = Slices.arrangeSlicesIntegerArray(X_TICKS_COUNT, 0, len(yValues) - 1)
         xTickPositions = numpy.linspace(0, len(yValues) - 1, X_TICKS_COUNT + 1, endpoint=True)
         ax.set_xticks(xTickPositions)
     ax.xaxis.set_ticklabels(xTickNames)
-    ax.plot(yValues, 'r-', label='A0')
-    ax.legend(loc='upper left')  # plot the legend
 
 
 def makeFrequencyPlot(ax, yValues, samples):
@@ -135,14 +167,28 @@ def makeFrequencyPlot(ax, yValues, samples):
     ax.plot(yValues, 'g-', label='A0')
     ax.legend(loc='upper left')  # plot the legend
 
-
 fig = plt.figure(figsize=(23, 12), dpi=80)
 
-if not FREQUENCIES_SHOW:
-    axt = fig.add_subplot(111)
-else:
-    axt = fig.add_subplot(211)
-    axf = fig.add_subplot(212)
+plot = 10
+if VOLTAGE_SHOW:
+    plot += 100;
+if FREQUENCIES_SHOW:
+    plot += 100;
+if RATE_SHOW:
+    plot += 100;
+
+if VOLTAGE_SHOW:
+    plot +=1
+    axt = fig.add_subplot(plot)
+
+if FREQUENCIES_SHOW:
+    plot +=1
+    axf = fig.add_subplot(plot)
+
+if RATE_SHOW:
+    plot +=1
+    axr = fig.add_subplot(plot)
+
 
 animation = FuncAnimation(fig, update, interval=1, frames=10)
 plt.show()
