@@ -8,8 +8,8 @@ from matplotlib.animation import FuncAnimation
 
 
 # https://stackoverflow.com/questions/5285912/how-can-i-create-a-frontend-for-matplotlib
-REFRESH_MS = 200
-X_LIMIT_MS = 1000
+REFRESH_MS = 500
+X_LIMIT_MS = 5000
 X_TICKS_COUNT = 20
 
 VOLTAGE_SHOW = True
@@ -21,8 +21,6 @@ FREQUENCIES_SHOW = True
 FREQUENCIES_LOG = True
 
 RATE_SHOW = True
-
-current_time = lambda: serial.time.time()
 
 class ArduinoConnection:
     SINUS_LENGTH_FRAMES = 650
@@ -42,7 +40,8 @@ class ArduinoConnection:
         if first:
             for i in range(5):
                 self.arduinoConnection.readline()
-        return float(self.arduinoConnection.readline())  # read the line of text from the serial port
+        strings = self.arduinoConnection.readline().split(b',')
+        return float(strings[0]), float(strings[1]) # read the line of text from the serial port
 
     def getSimulateData(self):
         self.count += 1
@@ -65,23 +64,22 @@ if Y_LIMIT_VOLT != None:
     yTickNames = numpy.linspace(0, Y_LIMIT_VOLT, Y_TICK_COUNTS + 1, endpoint=True)
 
 def update(frame):
+    time = 0
     if len(timeValues) == 0:
         for i in range(25):
-            connection.getData()
-        end.append(current_time() + X_LIMIT_MS / 100)
+            time, value = connection.getData()
+        end.append(time + X_LIMIT_MS)
     else:
         skip = int(round(len(timeValues) * refresh_ms / X_LIMIT_MS))
         del timeValues[:skip]
         del rateValues[:skip]
-    current_tim = 0
-    while current_tim < end[0]:
-        analog = connection.getData()
-        timeValues.append(analog)
-        current_tim = current_time()
-        rateValues.append(current_tim)
+    while time < end[0]:
+        time,value = connection.getData()
+        timeValues.append(value)
+        rateValues.append(time)
         # print(analog)
 
-    end[0] += refresh_ms / 100
+    end[0] += refresh_ms
 
     if len(timeValues) < 2:
         raise TimeoutError('No data found')
@@ -109,7 +107,7 @@ def makeDataRatePlot(ax, yValues):
     ax.clear()
     ax.grid(True)  # Turn the grid on
 
-    ax.set_xlabel('Item number ' + str(
+    ax.set_xlabel('Time in Milliseconds with ' + str(
         round(len(yValues) / X_LIMIT_MS * 1000)) + ' Data Samples per Second')  # Set ylabels
     setXaxesTimeScaling(ax, yValues)
 
@@ -122,7 +120,7 @@ def makeTimePlot(ax, yValues):
     ax.clear()
     ax.grid(True)  # Turn the grid on
 
-    ax.set_xlabel('Time in Milli Seconds with ' + str(
+    ax.set_xlabel('Time in Milliseconds with ' + str(
         round(len(yValues) / X_LIMIT_MS * 1000)) + ' Data Samples per Second')  # Set ylabels
     setXaxesTimeScaling(ax, yValues)
 
