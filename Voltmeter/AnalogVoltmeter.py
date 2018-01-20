@@ -9,7 +9,7 @@ from matplotlib.animation import FuncAnimation
 
 # https://stackoverflow.com/questions/5285912/how-can-i-create-a-frontend-for-matplotlib
 REFRESH_MS = 1000
-X_LIMIT_MS = 5000
+X_LIMIT_MS = 3000
 X_TICKS_COUNT = 20
 
 VOLTAGE_SHOW = True
@@ -109,8 +109,6 @@ def makeDataRatePlot(ax, yValues):
     ax.clear()
     ax.grid(True)  # Turn the grid on
 
-    ax.set_xlabel('Item number ' + str(
-        round(len(yValues) / X_LIMIT_MS * 1000)) + ' Data Samples per Second')  # Set ylabels
     setXaxesTimeScaling(ax, yValues)
 
     ax.set_ylabel('Time')  # Set ylabels
@@ -122,8 +120,6 @@ def makeTimePlot(ax, yValues):
     ax.clear()
     ax.grid(True)  # Turn the grid on
 
-    ax.set_xlabel('Time in Milli Seconds with ' + str(
-        round(len(yValues) / X_LIMIT_MS * 1000)) + ' Data Samples per Second')  # Set ylabels
     setXaxesTimeScaling(ax, yValues)
 
     ax.set_ylabel('Voltage in Volt')  # Set ylabels
@@ -137,6 +133,8 @@ def makeTimePlot(ax, yValues):
 
 
 def setXaxesTimeScaling(ax, yValues):
+    ax.set_xlabel('Time in Milliseconds with ' + str(
+        round(len(yValues) / X_LIMIT_MS * 1000)) + ' Data Samples per Second')  # Set ylabels
     ax.set_xlim(0, len(yValues) - 1)
     if len(yValues) > 0:  # Avoid divisions by zero
         # xTickPositions = Slices.arrangeSlicesIntegerArray(X_TICKS_COUNT, 0, len(yValues) - 1)
