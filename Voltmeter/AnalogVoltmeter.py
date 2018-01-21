@@ -8,8 +8,8 @@ from matplotlib.animation import FuncAnimation
 
 
 # https://stackoverflow.com/questions/5285912/how-can-i-create-a-frontend-for-matplotlib
-REFRESH_MS = 1000
-X_LIMIT_MS = 4000
+REFRESH_MS = 500
+X_LIMIT_MS = 1000
 X_TICKS_COUNT = 20
 
 VOLTAGE_SHOW = True
@@ -35,7 +35,7 @@ class ArduinoConnection:
     def getRealData(self):
         first = False
         if (self.arduinoConnection == None):
-            self.arduinoConnection = serial.Serial('com4', 9600)  # Creating our serial object named arduinoData
+            self.arduinoConnection = serial.Serial('com4', 115200)  # Creating our serial object named arduinoData
             first = True
         while (self.arduinoConnection.inWaiting() == 0):  # Wait here until there is data
             pass  # do nothing
