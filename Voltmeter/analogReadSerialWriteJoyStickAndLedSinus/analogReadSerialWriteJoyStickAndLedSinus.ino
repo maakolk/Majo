@@ -4,7 +4,8 @@ int frequency;
 int potiValue;
 int ledValue;
 int start;
-int current;
+unsigned long current;
+unsigned long next;
 
 // constants won't change. Used here to set a pin number:
 const int ledPin =  3;// the number of the LED pin
@@ -15,12 +16,17 @@ void setup() {
 
   // set the digital pin as output:
   pinMode(ledPin, OUTPUT);
+  next = 0;
 }
 
 // the loop function runs over and over again forever
 void loop() {
- sensorValue = analogRead(A0);
- Serial.println(sensorValue);
+ current = micros();
+ if(current > next){
+   next = current + 1000;
+   sensorValue = analogRead(A0);
+   Serial.println(sensorValue);
+ }
 //
 // //>>>>>>>>>>>>>>>>>>>>>>>
 //    sensorValue2 = analogRead(A1);
