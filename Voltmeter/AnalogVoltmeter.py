@@ -13,9 +13,9 @@ X_LIMIT_MS = 2000
 X_TICKS_COUNT = 20
 
 VOLTAGE_SHOW = True
-Y_LIMIT_VOLT = 5 # 5
+Y_LIMIT_VOLT = 5
+Y_TICK_COUNTS = None # 5 or None for auto scaling
 Y_CHANNELS = 1024
-Y_TICK_COUNTS = 5
 
 FREQUENCIES_SHOW = True
 FREQUENCIES_LOG = False
@@ -60,7 +60,7 @@ end = []
 refresh_ms = min(REFRESH_MS, X_LIMIT_MS)
 
 xTickNames = numpy.linspace(0, X_LIMIT_MS, X_TICKS_COUNT + 1, endpoint=True)
-if Y_LIMIT_VOLT != None:
+if Y_TICK_COUNTS != None:
     yTickPositions = numpy.linspace(0, Y_CHANNELS, Y_TICK_COUNTS + 1, endpoint=True)
     yTickNames = numpy.linspace(0, Y_LIMIT_VOLT, Y_TICK_COUNTS + 1, endpoint=True)
 
@@ -123,7 +123,7 @@ def makeTimePlot(ax, yValues):
     setXaxesTimeScaling(ax, yValues)
 
     ax.set_ylabel('Voltage in Volt')  # Set ylabels
-    if Y_LIMIT_VOLT != None:  # Set to None for AutoScale
+    if Y_TICK_COUNTS != None:  # Set to None for AutoScale
         ax.set_ylim(0, Y_CHANNELS)
         ax.set_yticks(yTickPositions)
         ax.yaxis.set_ticklabels(yTickNames)
