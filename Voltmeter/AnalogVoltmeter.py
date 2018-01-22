@@ -8,12 +8,12 @@ from matplotlib.animation import FuncAnimation
 
 
 # https://stackoverflow.com/questions/5285912/how-can-i-create-a-frontend-for-matplotlib
-REFRESH_MS = 500
-X_LIMIT_MS = 1000
+REFRESH_MS = 1000
+X_LIMIT_MS = 2000
 X_TICKS_COUNT = 20
 
 VOLTAGE_SHOW = True
-Y_LIMIT_VOLT = None # 5
+Y_LIMIT_VOLT = 5 # 5
 Y_CHANNELS = 1024
 Y_TICK_COUNTS = 5
 
@@ -99,7 +99,7 @@ def update(frame):
 def executeFft():
     hann = numpy.hanning(len(timeValues))
     frequencyValues = numpy.fft.fft(timeValues * hann)
-    N = int(len(timeValues) / 2 + 1)
+    N = int(len(timeValues) / 2 )
     frequencyValues = numpy.abs(frequencyValues[:N])
     if FREQUENCIES_LOG:
         frequencyValues = numpy.log(frequencyValues + 0.001)

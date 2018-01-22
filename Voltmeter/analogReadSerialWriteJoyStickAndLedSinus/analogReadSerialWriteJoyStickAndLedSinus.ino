@@ -22,21 +22,20 @@ void setup() {
 // the loop function runs over and over again forever
 void loop() {
  current = micros();
+ if(next == 0)
+  next = current - 1;
  if(current > next){
-   next = current + 1000;
+   next += 1000;
    sensorValue = analogRead(A0);
    Serial.println(sensorValue);
  }
-//
-// //>>>>>>>>>>>>>>>>>>>>>>>
-//    sensorValue2 = analogRead(A1);
-//    frequency = map(sensorValue2, 0,1023, 1, 100);
-//
-// //>>>>>>>>>>>>>>>>>>>>>>>>
-//    current = millis();
-//    if(current - start > 1 / frequency){
-//       start = start + 1 / frequency;
-//    }
-//    ledValue = ( sin( 2 * PI * millis() / 1000.0 * frequency) + 1) * 10;
-//    analogWrite(ledPin, ledValue);
+ // //>>>>>>>>>>>>>>>>>>>>>>>
+ sensorValue2 = analogRead(A1);
+ frequency = map(sensorValue2, 0,1023, 1, 201);
+    
+ // //>>>>>>>>>>>>>>>>>>>>>>>>
+ ledValue = ( sin( 2.0 * PI * current * frequency / 1000000.0) + 1) * 100;
+ analogWrite(ledPin, ledValue);
+
 }
+
