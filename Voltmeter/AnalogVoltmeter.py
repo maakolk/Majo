@@ -35,7 +35,7 @@ class ArduinoConnection:
     def getRealData(self):
         first = False
         if (self.arduinoConnection == None):
-            self.arduinoConnection = serial.Serial('com4', 115200)  # Creating our serial object named arduinoData
+            self.arduinoConnection = serial.Serial('com4', 500000)  # Creating our serial object named arduinoData
             first = True
         while (self.arduinoConnection.inWaiting() == 0):  # Wait here until there is data
             pass  # do nothing
