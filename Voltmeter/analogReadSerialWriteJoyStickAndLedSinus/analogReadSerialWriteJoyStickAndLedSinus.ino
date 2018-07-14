@@ -13,7 +13,7 @@ const int ledPin =  3;// the number of the LED pin
 
 void setup() {
   // start serial port at 9600 bps:
-  Serial.begin(500000);
+  Serial.begin(50000);
 
   // set the digital pin as output:
   pinMode(ledPin, OUTPUT);

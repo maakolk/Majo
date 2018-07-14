@@ -6,21 +6,21 @@ import numpy  # Import numpy
 from drawnow import *
 from matplotlib.animation import FuncAnimation
 
-
+BAUD = 9600 # 9600 or 500000
 # https://stackoverflow.com/questions/5285912/how-can-i-create-a-frontend-for-matplotlib
-REFRESH_MS = 1000
-X_LIMIT_MS = 2000
+REFRESH_MS = 500
+X_LIMIT_MS = 10000
 X_TICKS_COUNT = 20
 
 VOLTAGE_SHOW = True
 Y_LIMIT_VOLT = 5
-Y_TICK_COUNTS = None # 5 or None for auto scaling
+Y_TICK_COUNTS = 5 # 5 or None for auto scaling
 Y_CHANNELS = 1024
 
-FREQUENCIES_SHOW = True
+FREQUENCIES_SHOW = False
 FREQUENCIES_LOG = False
 
-RATE_SHOW = True
+RATE_SHOW = False
 
 current_time = lambda: serial.time.time()
 
@@ -35,7 +35,7 @@ class ArduinoConnection:
     def getRealData(self):
         first = False
         if (self.arduinoConnection == None):
-            self.arduinoConnection = serial.Serial('com4', 500000)  # Creating our serial object named arduinoData
+            self.arduinoConnection = serial.Serial('com4', BAUD)  # Creating our serial object named arduinoData
             first = True
         while (self.arduinoConnection.inWaiting() == 0):  # Wait here until there is data
             pass  # do nothing
