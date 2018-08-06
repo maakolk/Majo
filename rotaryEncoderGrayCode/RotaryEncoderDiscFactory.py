@@ -15,50 +15,58 @@ class RingTraveller:
         self.end = 0
         self.rpHasNext = False
         self.ring = n
-        self.segment = -1
-
-    def grayCode(self, segment):
-        return  segment ^ (segment >> 1)
-
-    def colour(self, ring, segment):
-        return (self.grayCode(segment) >> ring) & 1
 
     def nextRing(self):
         if self.tp == None:
             self.tp = Slices(2 ** self.n, 0, 360)
             self.begin, self.end, self.rpHasNext = self.rp.nextInterval()
             self.ring = self.ring - 1
+            self.segment = -1
 
         theta1, theta2, hasNext = self.tp.nextInterval();
         if not hasNext:
             self.tp = None
 
         self.segment = self.segment + 1
-        return self.begin, self.end, theta1, theta2, self.colour(self.ring, self.segment), (hasNext | self.rpHasNext);
+        return self.begin, self.end, theta1, theta2, self.ring, self.segment, (hasNext | self.rpHasNext);
 
 
 class WedgeProvider:
 
     def __init__(self, n, inner, outer):
         self.count = 0
-        self.rt = RingTraveller(n,inner, outer)
+        self.n = n
+        self.rt = RingTraveller(n, inner, outer)
+
+    def grayCode(self, segment):
+        return segment ^ (segment >> 1)
+
+    def colour(self, ring, segment):
+        return (self.grayCode(segment) >> ring) & 1
 
     def nextWedge(self, ax):
-        begin, end, theta1, theta2, colour, next = self.rt.nextRing()
-
-        # invertedColour = int(not colour)
+        begin, end, theta1, theta2, ring, segment, next = self.rt.nextRing()
 
         self.count += 1
 
-        print(begin, end, theta1, theta2, colour)
-        ax.add_patch(Wedge((0, 0), end, theta1, theta2, width=end-begin, color=str(colour)))
+        colour = self.colour(ring, segment);
+        invertedColour = int(not colour)
 
-        # ax.add_patch(Wedge((0, 0), end, theta1, theta2, width=SEPARATOR_WIDTH, color=str(invertedColour)))
-        # if self.count == 1 or self.count == 2:
-        #     ax.add_patch(Wedge((0, 0), begin - SEPARATOR_WIDTH, theta1, theta2, width=SEPARATOR_WIDTH,
-        #                        color=str(invertedColour)))
 
+        print(begin, end, theta1, theta2, colour, ring, segment)
+        ax.add_patch(Wedge((0, 0), end, theta1, theta2, width=end - begin, color=str(colour)))
+
+        if ring > 0 and colour == self.colour(ring - 1, segment):
+            ax.add_patch(Wedge((0, 0), end - SEPARATOR_WIDTH, theta1, theta2, width=SEPARATOR_WIDTH,
+                               color=str(invertedColour)))
+        if ring == 0 and not invertedColour:
+            ax.add_patch(Wedge((0, 0), end - SEPARATOR_WIDTH, theta1, theta2, width=SEPARATOR_WIDTH,
+                               color=str(invertedColour)))
+        if ring == self.n -1 and not invertedColour:
+            ax.add_patch(Wedge((0, 0), begin, theta1, theta2, width=SEPARATOR_WIDTH,
+                               color=str(invertedColour)))
         return next
+
 
 fig = plt.figure(figsize=(12, 12), dpi=80)
 ax = fig.add_subplot(111)

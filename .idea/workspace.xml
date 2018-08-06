@@ -1,0 +1,1269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/polarCoordinates/polarCoordinatesSimulateData.py" description="def getRealData(self):" line="19" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d34d9e89-3b30-48db-8a2d-152fc47e664f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/Arduino.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Voltmeter/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Voltmeter/analogReadSerialWrite/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Voltmeter/analogReadSerialWriteJoyStickAndLedSinus/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/rotaryEncoder/Unbenannt.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/rotaryEncoder/helper/.cache/v/cache/lastfailed" />
+      <change beforePath="$PROJECT_DIR$/rotaryEncoderGrayCode/Rotary.jpg" afterPath="$PROJECT_DIR$/rotaryEncoderGrayCode/Rotary.jpg" />
+      <change beforePath="$PROJECT_DIR$/rotaryEncoderGrayCode/RotaryEncoderDiscFactory.py" afterPath="$PROJECT_DIR$/rotaryEncoderGrayCode/RotaryEncoderDiscFactory.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AnalogVoltmeter.py" pinned="true" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Voltmeter/AnalogVoltmeter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RotaryEncoderDiscFactory.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rotaryEncoder/RotaryEncoderDiscFactory.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Unbenannt.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rotaryEncoder/Unbenannt.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lastfailed" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rotaryEncoderGrayCode/helper/.cache/v/cache/lastfailed">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RotaryEncoderDiscFactory.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rotaryEncoderGrayCode/RotaryEncoderDiscFactory.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="76" column="20" lean-forward="false" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_slicer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rotaryEncoderGrayCode/helper/test_slicer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slicer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rotaryEncoderGrayCode/helper/slicer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GrayCode.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rotaryEncoderGrayCode/GrayCode.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>makeFig</find>
+      <find>aspec</find>
+      <find>plt</find>
+      <find>format</find>
+      <find>Mill</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="oldVersion" />
+      </map>
+    </option>
+    <option name="RESET_MODE" value="SOFT" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Lessson11.py" />
+        <option value="$PROJECT_DIR$/rotaryEncoder/test_slices.py" />
+        <option value="$PROJECT_DIR$/rotaryEncoder/slicer.py" />
+        <option value="$PROJECT_DIR$/rotaryEncoder/test_slicer.py" />
+        <option value="$PROJECT_DIR$/RotaryEncoderDiscFactory.py" />
+        <option value="$PROJECT_DIR$/polarCoordinates/polarCoordinates.py" />
+        <option value="$PROJECT_DIR$/rotary_test.ino" />
+        <option value="$PROJECT_DIR$/Lesson1.py" />
+        <option value="$PROJECT_DIR$/SimulateData.py" />
+        <option value="$PROJECT_DIR$/polarCoordinates/polarCoordinatesSimulateData.py" />
+        <option value="$PROJECT_DIR$/MonitorData.py" />
+        <option value="$PROJECT_DIR$/Voltmeter/helper/slicer.py" />
+        <option value="$PROJECT_DIR$/rotaryEncoder/helper/slicer.py" />
+        <option value="$PROJECT_DIR$/Voltmeter/FastFourierTransformation" />
+        <option value="$PROJECT_DIR$/rotaryEncoder/RotaryEncoderDiscFactory.py" />
+        <option value="$PROJECT_DIR$/Voltmeter/AnalogVoltmeter.py" />
+        <option value="$PROJECT_DIR$/rotaryEncoderGreyCode/GreyCode.py" />
+        <option value="$PROJECT_DIR$/rotaryEncoderGreyCode/RotaryEncoderDiscFactory.py" />
+        <option value="$PROJECT_DIR$/rotaryEncoderGrayCode/RotaryEncoderDiscFactory.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="510" />
+    <option name="y" value="-15" />
+    <option name="width" value="960" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Arduino" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arduino" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Arduino" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arduino" type="462c0819:PsiDirectoryNode" />
+              <item name="rotaryEncoder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Arduino" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arduino" type="462c0819:PsiDirectoryNode" />
+              <item name="rotaryEncoderGrayCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Arduino" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arduino" type="462c0819:PsiDirectoryNode" />
+              <item name="rotaryEncoderGrayCode" type="462c0819:PsiDirectoryNode" />
+              <item name="helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Arduino" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Arduino" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Arduino" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python-3.6.3.amd64" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Arduino" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Arduino" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Arduino" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="matplotlib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Michael Aakolk\PycharmProjects\Arduino" />
+      <recent name="C:\Users\Michael Aakolk\PycharmProjects\Arduino\Voltmeter\analogReadSerialWriteJoyStickAndLedSinus" />
+      <recent name="C:\Users\Michael Aakolk\PycharmProjects\Arduino\Voltmeter\helper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Michael Aakolk\PycharmProjects\Arduino\anemometer" />
+      <recent name="C:\Users\Michael Aakolk\PycharmProjects\Arduino\Voltmeter\analogReadSerialWrite" />
+      <recent name="C:\Users\Michael Aakolk\PycharmProjects\Arduino\Voltmeter" />
+      <recent name="C:\Users\Michael Aakolk\PycharmProjects\Arduino\rotaryEncoder" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.RotaryEncoderDiscFactory (1)">
+    <configuration name="AnalogVoltmeter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Voltmeter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Arduino" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Voltmeter/AnalogVoltmeter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="GreyCode" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rotaryEncoderGreyCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Arduino" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rotaryEncoderGreyCode/GreyCode.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="RotaryEncoderDiscFactory (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rotaryEncoderGrayCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Arduino" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rotaryEncoderGrayCode/RotaryEncoderDiscFactory.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="RotaryEncoderDiscFactory" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rotaryEncoder" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Arduino" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rotaryEncoder/RotaryEncoderDiscFactory.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="polarCoordinatesSimulateData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/polarCoordinates" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Arduino" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/polarCoordinates/polarCoordinatesSimulateData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.polarCoordinatesSimulateData" />
+      <item index="1" class="java.lang.String" itemvalue="Python.AnalogVoltmeter" />
+      <item index="2" class="java.lang.String" itemvalue="Python.RotaryEncoderDiscFactory" />
+      <item index="3" class="java.lang.String" itemvalue="Python.GreyCode" />
+      <item index="4" class="java.lang.String" itemvalue="Python.RotaryEncoderDiscFactory (1)" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.RotaryEncoderDiscFactory (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.GreyCode" />
+        <item index="2" class="java.lang.String" itemvalue="Python.RotaryEncoderDiscFactory" />
+        <item index="3" class="java.lang.String" itemvalue="Python.AnalogVoltmeter" />
+        <item index="4" class="java.lang.String" itemvalue="Python.polarCoordinatesSimulateData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d34d9e89-3b30-48db-8a2d-152fc47e664f" name="Default" comment="" />
+      <created>1514224296893</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1514224296893</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Made a mistake">
+      <created>1514304655273</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1514304655273</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Program with possibility to simulate data input&#10;&#10;For your understanding:&#10;Sinus:     between -1 and +1&#10;Random:    between 0 and 0.5&#10;Sinus + 1: between 0 and 2&#10;Summary:   between 0 and 2.5&#10;&#10;Length of the Sinus Pattern: 2 * PI">
+      <created>1514410153577</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1514410153577</updated>
+    </task>
+    <task id="LOCAL-00004" summary="With Figure Size">
+      <created>1514491027536</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1514491027536</updated>
+    </task>
+    <task id="LOCAL-00005" summary="With Figure Size">
+      <created>1514491903977</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1514491903977</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Improved graphic output handling">
+      <created>1514496644641</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1514496644641</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adjust middle of simulated signal">
+      <created>1514498229207</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1514498229207</updated>
+    </task>
+    <task id="LOCAL-00008" summary="RotaryEncoderDiskFactory - Part I)">
+      <created>1514545790805</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1514545790805</updated>
+    </task>
+    <task id="LOCAL-00009" summary="RotaryEncoderDiskFactory - Part II)">
+      <created>1514550420049</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1514550420049</updated>
+    </task>
+    <task id="LOCAL-00010" summary="RotaryEncoderDiskFactory - Part III)">
+      <created>1514551584915</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1514551584915</updated>
+    </task>
+    <task id="LOCAL-00011" summary="RotaryEncoderDiskFactory - Documentation">
+      <created>1514551916494</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1514551916494</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Refactoring, Packaging &amp; Unit Testing">
+      <created>1514570629087</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1514570629087</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Bug fix">
+      <created>1514573420860</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1514573420860</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Save Image">
+      <created>1514583324130</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1514583324130</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Windrose (example with 30° input)">
+      <created>1515259302988</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1515259302988</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Radian">
+      <created>1515345507686</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1515345507686</updated>
+    </task>
+    <task id="LOCAL-00017" summary="polarCoordinatesSimulatedData">
+      <created>1515351265880</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1515351265880</updated>
+    </task>
+    <task id="LOCAL-00018" summary="polarCoordinatesSimulatedData - Part II)">
+      <created>1515351857536</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1515351857536</updated>
+    </task>
+    <task id="LOCAL-00019" summary="polarCoordinatesSimulatedData - Part III)">
+      <created>1515351956832</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1515351956832</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Fix Bugs when retrieving data from Arduino">
+      <created>1516312482230</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1516312482230</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Voltmeter">
+      <created>1516312545887</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1516312545887</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Voltmeter with Time Resolution - Part II)">
+      <created>1516380477162</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1516380477162</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Voltmeter with Time Resolution - Part II) - Mode B)">
+      <created>1516380879091</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1516380879091</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Voltmeter with Time Resolution - Part III) - With FFT">
+      <created>1516403380664</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1516403380664</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Voltmeter with Time Resolution - Part III) - With FFT">
+      <created>1516406419640</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1516406419640</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Voltmeter with Time Resolution - Part III) - With FFT">
+      <created>1516407488810</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1516407488810</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Voltmeter with Time Resolution - Part III) - With FFT">
+      <created>1516409141052</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1516409141052</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Voltmeter with Time Resolution - Part III) - With FFT">
+      <created>1516409268369</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1516409268369</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Voltmeter with Time Resolution - Part IV)">
+      <created>1516450037048</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1516450037048</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Voltmeter with Time Resolution - Part V) - with Rates">
+      <created>1516454162415</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1516454162415</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Voltmeter with Time Resolution - Part VI) - with Arduino Timing">
+      <created>1516480812565</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1516480812565</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Voltmeter with Time Resolution - Part VI) - with Arduino Timing">
+      <created>1516480855546</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1516480855546</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Voltmeter with Time Resolution - Part VII) - revert to Phyton Timing">
+      <created>1516481698966</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1516481698966</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Voltmeter with Time Resolution - Part VII) - revert to Phyton Timing">
+      <created>1516483328052</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1516483328052</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Voltmeter with Time Resolution - Part VII) - revert to Phyton Timing">
+      <created>1516484239511</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1516484239511</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Voltmeter with Time Resolution - Part VII) - revert to Phyton Timing">
+      <created>1516484402315</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1516484402315</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Voltmeter with Time Resolution - Part VII) - revert to Phyton Timing">
+      <created>1516560814210</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1516560814210</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Cleanup repository">
+      <created>1516561232720</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1516561232720</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Add wiring picture to Voltmeter">
+      <created>1516561456104</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1516561456104</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Add wiring picture to Voltmeter">
+      <created>1516561682874</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1516561682874</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Increase Baud Rate">
+      <created>1516571598384</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1516571598384</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Increase Baud Rate">
+      <created>1516574275906</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1516574275906</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Increase Baud Rate">
+      <created>1516574788501</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1516574788501</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Increase Baud Rate">
+      <created>1516575104186</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1516575104186</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Very good configuration">
+      <created>1516656533523</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1516656533523</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Improve setting for auto scaling">
+      <created>1516657656328</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1516657656328</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Unthrottled">
+      <created>1516739669514</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1516739669514</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Rotary Encoder with Gray Code">
+      <created>1531597259498</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1531597259498</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Rotary Encoder with Gray Code">
+      <created>1531597296619</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1531597296619</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Rotary Encoder with Gray Code - Part II)">
+      <created>1531597610896</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1531597610896</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="py_test_for_rotaryEncoder_test_slicer_TestSlices - 2017.12.29 at 17h 42m 02s.xml">
+      <configuration name="py.test for rotaryEncoder.test_slicer.TestSlices" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_rotaryEncoder_test_slicer_TestSlices - 2017.12.29 at 17h 43m 44s.xml">
+      <configuration name="py.test for rotaryEncoder.test_slicer.TestSlices" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_rotaryEncoder_test_slicer_TestSlices - 2017.12.29 at 17h 43m 52s.xml">
+      <configuration name="py.test for rotaryEncoder.test_slicer.TestSlices" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_rotaryEncoder_test_slicer_TestSlices - 2017.12.29 at 17h 44m 51s.xml">
+      <configuration name="py.test for rotaryEncoder.test_slicer.TestSlices" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_rotaryEncoder_test_slicer_TestSlices - 2017.12.29 at 17h 45m 26s.xml">
+      <configuration name="py.test for rotaryEncoder.test_slicer.TestSlices" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_rotaryEncoder_test_slicer_TestSlices - 2017.12.29 at 17h 45m 56s.xml">
+      <configuration name="py.test for rotaryEncoder.test_slicer.TestSlices" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_rotaryEncoder_test_slicer_TestSlices - 2017.12.29 at 17h 46m 32s.xml">
+      <configuration name="py.test for rotaryEncoder.test_slicer.TestSlices" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_rotaryEncoder_test_slicer_TestSlices - 2017.12.29 at 17h 46m 57s.xml">
+      <configuration name="py.test for rotaryEncoder.test_slicer.TestSlices" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_rotaryEncoder_test_slicer_TestSlices - 2017.12.29 at 17h 49m 17s.xml">
+      <configuration name="py.test for rotaryEncoder.test_slicer.TestSlices" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_rotaryEncoder_test_slicer_TestSlices - 2017.12.29 at 17h 49m 32s.xml">
+      <configuration name="py.test for rotaryEncoder.test_slicer.TestSlices" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2613277" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27593362" sideWeight="0.59536356" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37846836" sideWeight="0.44569734" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20435685" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27593362" sideWeight="0.40463647" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24866469" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42634854" sideWeight="0.44942045" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1653718" sideWeight="0.49367756" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Bug fix" />
+    <MESSAGE value="Save Image" />
+    <MESSAGE value="Windrose (example with 30° input)" />
+    <MESSAGE value="Radian" />
+    <MESSAGE value="polarCoordinatesSimulatedData" />
+    <MESSAGE value="polarCoordinatesSimulatedData - Part II)" />
+    <MESSAGE value="polarCoordinatesSimulatedData - Part III)" />
+    <MESSAGE value="Fix Bugs when retrieving data from Arduino" />
+    <MESSAGE value="Voltmeter" />
+    <MESSAGE value="Voltmeter with Time Resolution - Part II)" />
+    <MESSAGE value="Voltmeter with Time Resolution - Part II) - Mode B)" />
+    <MESSAGE value="Voltmeter with Time Resolution - Part III) - With FFT" />
+    <MESSAGE value="Voltmeter with Time Resolution - Part IV)" />
+    <MESSAGE value="Voltmeter with Time Resolution - Part V) - with Rates" />
+    <MESSAGE value="Voltmeter with Time Resolution - Part VI) - with Arduino Timing" />
+    <MESSAGE value="Voltmeter with Time Resolution - Part VII) - revert to Phyton Timing" />
+    <MESSAGE value="Voltmeter with Time Resolution - Part VIII) - test with self generated and adaptable Sinus" />
+    <MESSAGE value="Cleanup repository" />
+    <MESSAGE value="Add wiring picture to Voltmeter" />
+    <MESSAGE value="Increase Baud Rate" />
+    <MESSAGE value="Very good configuration" />
+    <MESSAGE value="Improve setting for auto scaling" />
+    <MESSAGE value="Unthrottled" />
+    <MESSAGE value="Rotary Encoder with Gray Code" />
+    <MESSAGE value="Rotary Encoder with Gray Code - Part II)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rotary Encoder with Gray Code - Part II)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/anemometer/Lessson11.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/anemometer/Lessson11.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rotaryEncoder/RotaryEncoderDiscFactory.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Voltmeter/AnalogVoltmeter.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="59" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="len(timeValues)" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>len(timeValues)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>self.arduinoConnection.read(4)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.arduinoConnection.read(8)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.arduinoConnection.inWaiting()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>float(strings[1])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>float(strings[0])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>string</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>string = str(string)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.arduinoConnection().readline()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>**kwargs</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/WinPython-64bit-3.6.3.0Qt5/python-3.6.3.amd64/Lib/site-packages/matplotlib/projections/polar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19142">
+          <caret line="1146" column="24" lean-forward="false" selection-start-line="1146" selection-start-column="24" selection-end-line="1146" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/WinPython-64bit-3.6.3.0Qt5/python-3.6.3.amd64/Lib/site-packages/matplotlib/axes/_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49045">
+          <caret line="2922" column="76" lean-forward="false" selection-start-line="2922" selection-start-column="76" selection-end-line="2922" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polarCoordinates/polarCoordinates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/WinPython-64bit-3.6.3.0Qt5/python-3.6.3.amd64/Lib/site-packages/pymc/StepMethods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="1912" column="8" lean-forward="false" selection-start-line="1912" selection-start-column="8" selection-end-line="1912" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voltmeter/helper/slicer.py" />
+    <entry file="file://$PROJECT_DIR$/Voltmeter/Fourier" />
+    <entry file="file://$USER_HOME$/WinPython-64bit-3.6.3.0Qt5/python-3.6.3.amd64/Lib/site-packages/matplotlib/axis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="1543" column="43" lean-forward="false" selection-start-line="1543" selection-start-column="43" selection-end-line="1543" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/WinPython-64bit-3.6.3.0Qt5/python-3.6.3.amd64/Lib/site-packages/matplotlib/figure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="977" column="4" lean-forward="true" selection-start-line="977" selection-start-column="4" selection-end-line="977" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/WinPython-64bit-3.6.3.0Qt5/python-3.6.3.amd64/Lib/site-packages/matplotlib/axes/_axes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3410">
+          <caret line="295" column="8" lean-forward="false" selection-start-line="295" selection-start-column="8" selection-end-line="295" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/WinPython-64bit-3.6.3.0Qt5/python-3.6.3.amd64/Lib/site-packages/numpy/fft/fftpack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="118" column="8" lean-forward="false" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/32210720/numpy/core/multiarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/WinPython-64bit-3.6.3.0Qt5/python-3.6.3.amd64/Lib/site-packages/numpy/core/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/32210720/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3876">
+          <caret line="228" column="4" lean-forward="false" selection-start-line="228" selection-start-column="4" selection-end-line="228" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/WinPython-64bit-3.6.3.0Qt5/python-3.6.3.amd64/Lib/site-packages/matplotlib/cbook/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="384" column="11" lean-forward="false" selection-start-line="384" selection-start-column="11" selection-end-line="384" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voltmeter/analogReadSerialWrite/analogReadSerialWrite.ino">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/WinPython-64bit-3.6.3.0Qt5/python-3.6.3.amd64/Lib/site-packages/serial/serialjava.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2686">
+          <caret line="158" column="2" lean-forward="false" selection-start-line="158" selection-start-column="2" selection-end-line="158" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/WinPython-64bit-3.6.3.0Qt5/python-3.6.3.amd64/Lib/site-packages/serial/urlhandler/protocol_hwgrep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/WinPython-64bit-3.6.3.0Qt5/python-3.6.3.amd64/Lib/site-packages/serial/serialutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2771">
+          <caret line="164" column="6" lean-forward="false" selection-start-line="164" selection-start-column="6" selection-end-line="164" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/32210720/_io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4471">
+          <caret line="263" column="15" lean-forward="false" selection-start-line="263" selection-start-column="15" selection-end-line="263" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="91" column="8" lean-forward="false" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/WinPython-64bit-3.6.3.0Qt5/python-3.6.3.amd64/Lib/site-packages/matplotlib/animation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28322">
+          <caret line="1676" column="0" lean-forward="false" selection-start-line="1676" selection-start-column="0" selection-end-line="1676" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voltmeter/analogReadSerialWriteJoyStickAndLed/analogReadSerialWriteJoyStickAndLed.ino" />
+    <entry file="file://$PROJECT_DIR$/Voltmeter/ExposingResistor.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voltmeter/DarkeningResistor.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voltmeter/Output_With_LedLight_InLivingRoom.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voltmeter/analogReadSerialWrite/VoltageDivider_With_CDS-55-PhotoResistor_and_1KOhmResistor.JPG" />
+    <entry file="file://$PROJECT_DIR$/Lesson1.py" />
+    <entry file="file://$PROJECT_DIR$/SimulateData.py" />
+    <entry file="file://$PROJECT_DIR$/ArduinoWiringHelp.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anemometer/rotary_test.ino">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anemometer/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/README_First.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voltmeter/VoltageDivider_With_CDS-55-PhotoResistor_and_1KOhmResistor.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voltmeter/analogReadSerialWriteJoyStickAndLedSinus/WiringPicture.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voltmeter/FastFourierTransformation">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotaryEncoder/helper/slicer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotaryEncoder/helper/test_slicer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="34" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotaryEncoder/Rotary.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anemometer/Lessson11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polarCoordinates/polarCoordinatesSimulateData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voltmeter/AnalogVoltmeter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/WinPython-64bit-3.6.3.0Qt5/python-3.6.3.amd64/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="416" column="4" lean-forward="false" selection-start-line="416" selection-start-column="4" selection-end-line="416" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotaryEncoderGrayCode/helper/.cache/v/cache/lastfailed">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotaryEncoderGreyCode/Rotary.jpg" />
+    <entry file="file://$PROJECT_DIR$/rotaryEncoderGrayCode/helper/test_slicer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotaryEncoderGrayCode/helper/slicer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotaryEncoderGrayCode/GrayCode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotaryEncoder/Unbenannt.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotaryEncoder/RotaryEncoderDiscFactory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotaryEncoderGrayCode/Rotary.jpg" />
+    <entry file="file://$PROJECT_DIR$/rotaryEncoderGrayCode/RotaryEncoderDiscFactory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="76" column="20" lean-forward="false" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
