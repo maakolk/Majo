@@ -74,7 +74,7 @@ ax.set_xlim(-1, 1)
 ax.set_ylim(-1, 1)
 
 next = True
-wp = WedgeProvider(8, 0.2, 1.0)
+wp = WedgeProvider(5, 0.2, 1.0)
 while (next):
     next = wp.nextWedge(ax)
 
